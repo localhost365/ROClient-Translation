@@ -1,24 +1,9 @@
 Translation
 ===========
 
-Ragnarok Online ClientSide Translation Project. 
+Ragnarok Online на базе ClientSide Translation Project для RoFenrir
 
-Support Forum: http://herc.ws/board/topic/398-client-translation-project/
+Исходный проект: https://github.com/ROClientSide/Translation
 
-Use the Support Forum/Github Issues for ANY bugs found or you can join us @ IRC
-
-* IRC info
-
-Network: Rizon
-
-Host: irc.rizon.net
-
-Channel: #ROClientSide
-
-
-#####Converting itemInfo to idnum tables:
-
-* Open /Dev/Tools/SeperateItemInfo Folder
-* Copy itemInfo.lub to that folder
-* Run seperate.bat
-* idnum tables will be generated, copy it to your GRF
+Данный проект это перевод на Русский с Английского.
+В проекте может присутствовать адаптация для RoFenrir поэтому не стоит слепо и бездумно использовать для своих целей, хотя и не запрещено.
