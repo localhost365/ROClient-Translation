@@ -11844,5 +11844,148 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
+	},
+	[SKID.SU_SOULATTACK] = {
+		"SU_SOULATTACK",
+		SkillName = "Soul Attack",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 9 },
+		_NeedSkillList = {
+			{ SKID.SU_SPRITEMABLE, 1 }
+		}
+	},
+	[SKID.SU_POWEROFFLOCK] = {
+		"SU_POWEROFFLOCK",
+		SkillName = "Power of Lock",
+		MaxLv = 5,
+		SpAmount = { 50, 50, 50, 50, 50 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_HISS, 5 }
+		}
+	},
+	[SKID.SU_SVG_SPIRIT] = {
+		"SU_SVG_SPIRIT",
+		SkillName = "Sprit of Savage",
+		MaxLv = 5,
+		SpAmount = { 60, 60, 60, 60, 60 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFFLOCK, 5 }
+		}
+	},
+	[SKID.SU_HISS] = {
+		"SU_HISS",
+		SkillName = "Hiss",
+		MaxLv = 5,
+		SpAmount = { 50, 46, 42, 38, 34 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFLIFE, 1 }
+		}
+	},
+	[SKID.SU_NYANGGRASS] = {
+		"SU_NYANGGRASS",
+		SkillName = "Nyang Grass",
+		MaxLv = 5,
+		SpAmount = { 50, 48, 46, 44, 42 },
+		bSeperateLv = true,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		_NeedSkillList = {
+			{ SKID.SU_MEOWMEOW, 5 }
+		}
+	},
+	[SKID.SU_GROOMING] = {
+		"SU_GROOMING",
+		SkillName = "Grooming",
+		MaxLv = 5,
+		SpAmount = { 15, 15, 15, 15, 15 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFSEA, 1 }
+		}
+	},
+	[SKID.SU_PURRING] = {
+		"SU_PURRING",
+		SkillName = "Purring",
+		MaxLv = 5,
+		SpAmount = { 70, 65, 60, 55, 50 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_GROOMING, 5 }
+		}
+	},
+	[SKID.SU_SHRIMPARTY] = {
+		"SU_SHRIMPARTY",
+		SkillName = "Tasty Shrimp Party",
+		MaxLv = 5,
+		SpAmount = { 100, 90, 80, 70, 60 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_PURRING, 5 }
+		}
+	},
+	[SKID.SU_SPIRITOFLIFE] = {
+		"SU_SPIRITOFLIFE",
+		SkillName = "Sprit of Life",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_SVG_SPIRIT, 5 }
+		}
+	},
+	[SKID.SU_MEOWMEOW] = {
+		"SU_MEOWMEOW",
+		SkillName = "Meow Meow",
+		MaxLv = 5,
+		SpAmount = { 100, 90, 80, 70, 60 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_CHATTERING, 5 }
+		}
+	},
+	[SKID.SU_SPIRITOFLAND] = {
+		"SU_SPIRITOFLAND",
+		SkillName = "Spirit of Land",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_NYANGGRASS, 5 }
+		}
+	},
+	[SKID.SU_CHATTERING] = {
+		"SU_CHATTERING",
+		SkillName = "Chattering",
+		MaxLv = 5,
+		SpAmount = { 50, 45, 40, 35, 30 },
+		bSeperateLv = true,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_POWEROFLAND, 1 }
+		}
+	},
+	[SKID.SU_SPIRITOFSEA] = {
+		"SU_SPIRITOFSEA",
+		SkillName = "Spirit of Sea",
+		MaxLv = 1,
+		SpAmount = {},
+		bSeperateLv = false,
+		AttackRange = {},
+		_NeedSkillList = {
+			{ SKID.SU_SHRIMPARTY, 5 }
+		}
 	}
 }
